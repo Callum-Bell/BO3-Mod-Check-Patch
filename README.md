@@ -2,7 +2,7 @@
 <p align="center"><b>Bypass BO3 Mod Integrity Check (Rank Up Plugin)</b></p>
 
 <p align="center">
-    <a href="https://dl.insanux.com/?mod=Ym2UJAN1uSlsIMu">
+    <a href="http://dl.insanux.com/?mod=d450OtX36RP7m1I">
         <img alt="Download" src="https://img.shields.io/badge/Download-Here-blue?style=for-the-badge">
     </a>
 </p>
@@ -40,7 +40,7 @@ T7Patch is required for this plugin to work correctly.
 
 ## 👥 Credits
 - [InsaneCallum](https://github.com/Callum-Bell)
-- [Scroptss](https://github.com/Scroptss) — Updated offsets for Feb 2026
+- [Scroptss](https://github.com/Scroptss) - Offset Update Assistance
 - [Baldywaldy09](https://github.com/Baldywaldy09)
 - BOIII Client - Resources and reference
 
