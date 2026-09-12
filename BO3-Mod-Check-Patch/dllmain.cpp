@@ -43,19 +43,19 @@ DWORD WINAPI attach(_In_ LPVOID lpParameter)
 { 
 	bmem::init(nullptr);
 
-    // Feb Update Offsets
-    uintptr_t isModLoadedFunc1 = 0x1420C9AE0_offset;
+    // September 2026 Update Offsets
+    uintptr_t isModLoadedFunc1 = 0x1420C9420_offset;
     bmem::createJump(isModLoadedFunc1, (uintptr_t)isModLoadedRedirect);
 
     // These offsets are calls to a func which returns if a mod is loaded or not
     // We replace it with our own func to tell it theres no mods
     const std::vector<uintptr_t> isModLoadedAddrs =
     {
-        { 0x1420EB3C4_offset },
-        { 0x1420EB3E4_offset },
-        { 0x1420EB324_offset },
-        { 0x1420EB2F4_offset },
-        { 0x1420EAD97_offset },
+        { 0x1420EAD04_offset },
+        { 0x1420EAD24_offset },
+        { 0x1420EAC64_offset },
+        { 0x1420EAC34_offset },
+        { 0x1420EA6D7_offset },
         { 0x1413E6A74_offset },
         { 0x1415E7EDB_offset },
         { 0x1415E87DB_offset },
@@ -66,11 +66,11 @@ DWORD WINAPI attach(_In_ LPVOID lpParameter)
         { 0x1415F7F60_offset },
         { 0x141A80D1D_offset },
         { 0x141A9AD29_offset },
-        { 0x141E9432B_offset },
-        { 0x141E9C8AE_offset },
-        { 0x141EA5669_offset },
-        { 0x141EBF6CD_offset },
-        { 0x1420EAD5D_offset },
+        { 0x141E93C6B_offset },
+        { 0x141E9C1EE_offset },
+        { 0x141EA4FA9_offset },
+        { 0x141EBF00D_offset },
+        { 0x1420EA69D_offset },
     };
 
 	for (uintptr_t address : isModLoadedAddrs)
